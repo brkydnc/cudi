@@ -1,7 +1,15 @@
 [package]
+authors = ["Berkay Dinç <berkayydinc@gmail.com>"]
+description = "A small tool for displaying CUDA device properties."
+repository = "https://github.com/brkydnc/cudi"
+homepage = "https://github.com/brkydnc/cudi"
 name = "cudi"
+license-file = "LICENSE"
+readme = "README.md"
 version = "0.1.0"
 edition = "2021"
+categories = ["accessibility"]
+keywords = ["cuda", "cli"]
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
